@@ -4,15 +4,14 @@ const instance = axios.create({
     withCredentials: true,
     baseURL: 'https://social-network.samuraijs.com/api/1.0/',
     headers:     {
-        "API-KEY": "8cb29b96-1ff9-457a-9229-34cee0202934"
-        //"API-KEY": "4c2a720a-b6c7-4460-83f3-bfe52edab881"
+        "API-KEY": "367bb339-2821-49bb-868c-efaf25db8ec3"
     }
 });
 
 
 export const usersAPI = {
-    getUsers(currentPage = 1, pageSize = 10) {
-        return instance.get(`users?page=${currentPage}&count=${pageSize}`)
+    getUsers(currentPage = 1, pageSize = 10, term = "", friend = null) {
+        return instance.get(`users?page=${currentPage}&count=${pageSize}&term=${term}` + (friend === null ? '' : `$friend=${friend}`))
             .then(response => {
                 return response.data;
             });

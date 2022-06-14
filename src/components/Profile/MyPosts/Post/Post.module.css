@@ -1,9 +1,26 @@
 .item {
-  color: greenyellow;
+  color: black;
+}
+
+.itemLike{
+  color: red
 }
 
 .item img {
   width: 50px;
   height: 50px;
   border-radius: 30px;
+}
+
+.postList {
+  margin: 10px 0px 0px 10px;
+}
+
+.itemMessage {
+  color: black;
+  margin: 0px 50px 0px 20px;
+}
+
+.itemLike {
+  padding-top: 20px;
 }

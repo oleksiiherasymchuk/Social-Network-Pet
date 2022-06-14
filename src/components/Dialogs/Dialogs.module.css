@@ -9,11 +9,17 @@
 }
 
 .dialogsItems .active {
-    color: gold;
+    color: black;
+    padding: 8px 5px 8px 35px;
+    /* border: 1px solid #001529; */
+    margin-bottom: 2px;
 }
 
 .messages {
-    padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 8px 5px 8px 35px;
+    margin-bottom: 2px;
 }
 
 .messages .message {

@@ -7,18 +7,18 @@ const SET_STATUS = 'SET_STATUS';
 const DELETE_POST = 'DELETE_POST';
 const SAVE_PHOTO_SUCCESS = 'SAVE_PHOTO_SUCCESS';
 
-let initialState = {
+export const initialState = {
     posts: [
         {id: 1, message: 'Hi, how are you?', likesCount: 12},
-        {id: 2, message: 'It\'s my first post', likesCount: 11},
-        {id: 3, message: 'Blabla', likesCount: 11},
-        {id: 4, message: 'Dada', likesCount: 11}
+        {id: 2, message: 'It\'s my first post', likesCount: 10},
+        {id: 3, message: 'Blabla', likesCount: 21},
+        {id: 4, message: 'Dada', likesCount: 31}
     ],
     profile: null,
     status: ""
 };
 
-const profileReducer = (state = initialState, action) => {
+export const profileReducer = (state = initialState, action) => {
 
     switch (action.type) {
         case ADD_POST: {
@@ -33,6 +33,12 @@ const profileReducer = (state = initialState, action) => {
                 newPostText: ''
             };
         }
+        case 'increment': {
+            return {
+                ...state,
+                posts: [...state.posts, {likesCount: state.posts.likesCount + 1}]
+            }
+        }
         case SET_STATUS: {
             return {
                 ...state,
@@ -42,7 +48,6 @@ const profileReducer = (state = initialState, action) => {
         case SET_USER_PROFILE: {
             return {...state, profile: action.profile}
         }
-
         case DELETE_POST:
             return {...state, posts: state.posts.filter(p => p.id != action.postId)}
 
@@ -60,6 +65,8 @@ export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile})
 export const setStatus = (status) => ({type: SET_STATUS, status})
 export const deletePost = (postId) => ({type: DELETE_POST, postId})
 export const savePhotoSuccess = (photos) => ({type: SAVE_PHOTO_SUCCESS, photos})
+
+export const incrementLike = (likesCount) => ({type: 'increment', likesCount})
 
 export const getUserProfile = (userId) => async (dispatch) => {
     const response = await usersAPI.getProfile(userId);

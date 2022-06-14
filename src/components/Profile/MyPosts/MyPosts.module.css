@@ -5,3 +5,9 @@
 .posts {
     margin-top: 10px;
 }
+
+.postList {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}

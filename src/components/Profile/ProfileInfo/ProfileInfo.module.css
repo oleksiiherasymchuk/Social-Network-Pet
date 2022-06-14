@@ -1,11 +1,52 @@
 .descriptionBlock {
-    padding: 10px;
+    padding: 5px;
+    display: flex;
+    width: 100%;
 }
 
 .mainPhoto {
     max-width: 200px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 
 .contact {
     padding-left: 10px;
+}
+
+.choosePhoto {
+    padding: 2px;
+}
+
+.generalBlock {
+    display: flex;
+    width: 100%;
+}
+
+.profileInfo {
+    display: flex;
+    width: 100%;
+}
+
+.login {
+    margin-left: 400px;
+}
+
+.sideInfo {
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.editButton {
+    margin: 5px 0px 0px 10px;
+    width: 100px;
+}
+
+.status {
+    margin-left: 60px;
+}
+
+.input {
+    margin: 10px 0px 5px 60px;
 }

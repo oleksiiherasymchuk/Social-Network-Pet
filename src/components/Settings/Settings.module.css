@@ -1,0 +1,9 @@
+.settingsH {
+    padding-left: 450px;
+    display: flex;
+}
+
+.settingsIcon {
+    margin-left: 10px;
+    margin-top: 7px;
+}

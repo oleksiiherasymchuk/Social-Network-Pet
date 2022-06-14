@@ -28,6 +28,10 @@ export const getFollowingInProgress = (state) => {
     return state.usersPage.followingInProgress;
 }
 
+export const getUsersFilter = (state) => {
+    return state.usersPage.filter
+}
+
 export const countSomethingDifficult = (state) => {
     debugger
     //for... math... big arrays

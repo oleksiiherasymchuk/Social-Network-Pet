@@ -2,21 +2,25 @@
   "name": "react-way-of-samurai",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://oleksiiherasymchuk.github.io/Social-Network-Pet",
   "dependencies": {
-    "axios": "^0.18.0",
+    "antd": "^4.20.3",
+    "axios": "^0.27.2",
+    "boxicons": "^2.1.2",
     "classnames": "^2.2.6",
-    "react": "^16.8.6",
+    "formik": "^2.2.9",
+    "npm": "^6.14.17",
     "react-dom": "^16.8.6",
-    "react-redux": "^6.0.1",
+    "react-redux": "^8.0.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^2.1.8",
     "redux": "^4.0.1",
     "redux-form": "^8.2.4",
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0"
   },
   "scripts": {
-    "start": "set PORT=80 && react-scripts start port=",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -39,7 +43,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "react-test-renderer": "^16.8.6"
   }
 }

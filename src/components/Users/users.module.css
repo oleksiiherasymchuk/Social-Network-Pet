@@ -3,4 +3,33 @@
     height: 100px;
 }
 
+.paginator {
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
 
+.userList {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.input {
+    margin: 0px 0px 20px 350px;
+    width: 200px;
+    display: flex;
+}
+
+.inputTag {
+    width: 250px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.button {
+    margin-left: 10px;
+}
+
+.buttonFilter {
+    margin: 5px 0px 0px 5px;
+}

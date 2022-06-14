@@ -25,9 +25,13 @@ const MyPosts = React.memo(props => {
     let postsElements =
         [...props.posts]
             .reverse()
-            .map(p => <Post key={p.id} message={p.message} likesCount={p.likesCount}/>);
+            .map(p => 
+            <div className={s.postList}>
+               <Post key={p.id} 
+                        message={p.message} 
+                        likesCount={p.likesCount}/> 
+            </div>);
 
-    let newPostElement = React.createRef();
 
     let onAddPost = (values) => {
         props.addPost(values.newPostText);
