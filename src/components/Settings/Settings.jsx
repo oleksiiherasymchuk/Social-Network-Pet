@@ -15,7 +15,7 @@ const Settings = () => {
         </span>
       </div>
       <div>
-        <h2>No Settings Yet...</h2>
+        <h2>No settings yet...</h2>
       </div>
 
     </div>
