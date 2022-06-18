@@ -1,39 +1,39 @@
 self.__precacheManifest = [
   {
-    "revision": "45320aa4e314b7fd34c9",
+    "revision": "8fff087d6cb8285df4c6",
     "url": "/Social-Network-Pet/static/css/main.ec1bbe41.chunk.css"
   },
   {
-    "revision": "45320aa4e314b7fd34c9",
-    "url": "/Social-Network-Pet/static/js/main.c84821f3.chunk.js"
+    "revision": "8fff087d6cb8285df4c6",
+    "url": "/Social-Network-Pet/static/js/main.901771dd.chunk.js"
   },
   {
-    "revision": "8c2b63b733561cf4df83",
-    "url": "/Social-Network-Pet/static/js/runtime~main.43fe23fe.js"
+    "revision": "117bd60db2739bbd0a0f",
+    "url": "/Social-Network-Pet/static/js/runtime~main.4ac6cf14.js"
   },
   {
-    "revision": "995969c0d337c9cc5489",
+    "revision": "2be927ffc19f631f0dbc",
     "url": "/Social-Network-Pet/static/css/2.372f4d56.chunk.css"
   },
   {
-    "revision": "995969c0d337c9cc5489",
-    "url": "/Social-Network-Pet/static/js/2.7f8ef225.chunk.js"
+    "revision": "2be927ffc19f631f0dbc",
+    "url": "/Social-Network-Pet/static/js/2.a51f7bf5.chunk.js"
   },
   {
-    "revision": "d788f087cf1abbbf1897",
+    "revision": "8845eb6a0f4795267132",
     "url": "/Social-Network-Pet/static/css/3.e1a81ab9.chunk.css"
   },
   {
-    "revision": "d788f087cf1abbbf1897",
-    "url": "/Social-Network-Pet/static/js/3.f18105ab.chunk.js"
+    "revision": "8845eb6a0f4795267132",
+    "url": "/Social-Network-Pet/static/js/3.7a1731d0.chunk.js"
   },
   {
-    "revision": "8097b663ba7c318256dd",
+    "revision": "21defba262d68db7f0ca",
     "url": "/Social-Network-Pet/static/css/4.75599db7.chunk.css"
   },
   {
-    "revision": "8097b663ba7c318256dd",
-    "url": "/Social-Network-Pet/static/js/4.fc467397.chunk.js"
+    "revision": "21defba262d68db7f0ca",
+    "url": "/Social-Network-Pet/static/js/4.843afaf5.chunk.js"
   },
   {
     "revision": "8b1dbb1f4e4468b9cc31ced9c63fcfe7",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/Social-Network-Pet/static/media/news.7835731a.jpg"
   },
   {
-    "revision": "b39d25be809099c50408cfd73722f90f",
+    "revision": "478595ad964c021f4bf78d60c33daad0",
     "url": "/Social-Network-Pet/index.html"
   }
 ];
