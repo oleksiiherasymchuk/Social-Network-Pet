@@ -15,7 +15,7 @@ import { withSuspense } from "./hoc/withSuspense";
 import s from './components/Navbar/Navbar.module.css';
 import 'antd/dist/antd.css'
 import { Layout, Menu } from 'antd';
-import { UserOutlined, MessageOutlined, HomeOutlined, SettingOutlined, SoundOutlined, GlobalOutlined, DribbbleOutlined  } from '@ant-design/icons';
+import { UserOutlined, MessageOutlined, HomeOutlined, SettingOutlined, SoundOutlined, GlobalOutlined, DribbbleOutlined } from '@ant-design/icons';
 import { NavLink } from 'react-router-dom';
 import News from './components/News/News';
 import Music from './components/Music/Music';
@@ -128,11 +128,13 @@ let AppContainer = compose(
     connect(mapStateToProps, { initializeApp }))(AppF);
 
 const SamuraiJSApp = (props) => {
-    return <BrowserRouter basename={process.env.PUBLIC_URL}>
+    return <HashRouter>
         <Provider store={store}>
             <AppContainer />
         </Provider>
-    </BrowserRouter>
+    </HashRouter>
+    // <BrowserRouter basename={process.env.PUBLIC_URL}>  
+    // </BrowserRouter>
 }
 
 export default SamuraiJSApp;
